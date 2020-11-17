@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled, { css } from 'styled-components';
 
 const dragActive = css`
   border-color: #78e5d5;
@@ -9,7 +9,7 @@ const dragReject = css`
 `;
 
 export const DropContainer = styled.div.attrs({
-  className: "dropzone"
+  className: 'dropzone'
 })`
   border: 1px dashed #ddd;
   border-radius: 4px;
